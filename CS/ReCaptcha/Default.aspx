@@ -49,7 +49,7 @@
                 <dx:LayoutItem ShowCaption="False">
                     <LayoutItemNestedControlCollection>
                         <dx:LayoutItemNestedControlContainer>
-                            <div class="g-recaptcha" data-sitekey="6LdZ6acdAAAAAFBsz2QYYxWUB1j8Gf1yQ3yQtofM"></div>
+                            <div class="g-recaptcha" data-sitekey=""></div>
                         </dx:LayoutItemNestedControlContainer>
                     </LayoutItemNestedControlCollection>
                 </dx:LayoutItem>
@@ -62,11 +62,6 @@
                         </dx:LayoutItemNestedControlContainer>
                     </LayoutItemNestedControlCollection>
                 </dx:LayoutItem>
-
-
-
-
-
             </Items>
         </dx:ASPxFormLayout>
     </form>
