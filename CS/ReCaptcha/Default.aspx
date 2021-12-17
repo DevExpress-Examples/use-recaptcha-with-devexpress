@@ -29,12 +29,46 @@
 <body>
     <form id="form1" runat="server">
         <h1>How to use ReCaptcha with DevExpress Editors</h1>
-        <dx:ASPxTextBox runat="server" ID="Name" Caption="Name:"></dx:ASPxTextBox>
-        <dx:ASPxTextBox runat="server" ID="mail" Caption="E-Mail:"></dx:ASPxTextBox>
-        <div class="g-recaptcha" data-sitekey=""></div> 
-        <dx:ASPxButton runat="server" Text="Submit" AutoPostBack="false" ID="Submit" ClientInstanceName="submit" OnClick="Submit_Click">
-            <ClientSideEvents Click="OnSubmitClick" />
-        </dx:ASPxButton>
+
+        <dx:ASPxFormLayout ID="ASPxFormLayout1" runat="server">
+            <Items>
+                <dx:LayoutItem Caption="Name:">
+                    <LayoutItemNestedControlCollection>
+                        <dx:LayoutItemNestedControlContainer>
+                            <dx:ASPxTextBox runat="server" ID="Name"></dx:ASPxTextBox>
+                        </dx:LayoutItemNestedControlContainer>
+                    </LayoutItemNestedControlCollection>
+                </dx:LayoutItem>
+                <dx:LayoutItem Caption="E-Mail:">
+                    <LayoutItemNestedControlCollection>
+                        <dx:LayoutItemNestedControlContainer>
+                            <dx:ASPxTextBox runat="server" ID="mail"></dx:ASPxTextBox>
+                        </dx:LayoutItemNestedControlContainer>
+                    </LayoutItemNestedControlCollection>
+                </dx:LayoutItem>
+                <dx:LayoutItem ShowCaption="False">
+                    <LayoutItemNestedControlCollection>
+                        <dx:LayoutItemNestedControlContainer>
+                            <div class="g-recaptcha" data-sitekey="6LdZ6acdAAAAAFBsz2QYYxWUB1j8Gf1yQ3yQtofM"></div>
+                        </dx:LayoutItemNestedControlContainer>
+                    </LayoutItemNestedControlCollection>
+                </dx:LayoutItem>
+                <dx:LayoutItem ShowCaption="False">
+                    <LayoutItemNestedControlCollection>
+                        <dx:LayoutItemNestedControlContainer>
+                            <dx:ASPxButton runat="server" Text="Submit" AutoPostBack="false" ID="Submit" ClientInstanceName="submit" OnClick="Submit_Click">
+                                <ClientSideEvents Click="OnSubmitClick" />
+                            </dx:ASPxButton>
+                        </dx:LayoutItemNestedControlContainer>
+                    </LayoutItemNestedControlCollection>
+                </dx:LayoutItem>
+
+
+
+
+
+            </Items>
+        </dx:ASPxFormLayout>
     </form>
 </body>
 </html>
