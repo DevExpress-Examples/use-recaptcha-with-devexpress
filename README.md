@@ -4,9 +4,9 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 
-# How to use Google reCaptcha with DevExpress Editors
+# How to use Google reCAPTCHA with DevExpress Editors
 
-This example demonstrates how to use [reCaptcha API](https://www.google.com/recaptcha/about/) to validate user input.
+This example demonstrates how to use [reCAPTCHA API](https://www.google.com/recaptcha/about/) to validate user input.
 
 ![Sample](./Sample.png)
 
@@ -18,11 +18,11 @@ This example demonstrates how to use [reCaptcha API](https://www.google.com/reca
 
 ## Implementation Details
 
-Follow the steps below to add **reCaptcha** verification to your project:
+Follow the steps below to add **reCAPTCHA** verification to your project:
 
-1. Register your website's domain in the [Google reCaptcha](https://www.google.com/recaptcha/admin/create) service to get a pair of a **site key** and **secret key**.
+1. Register your website's domain in the [Google reCAPTCHA](https://www.google.com/recaptcha/admin/create) service to get a pair of a **site key** and **secret key**.
 
 2. Create a `div` container with the **class** attribute set to **g-recaptcha**. Assign the **site key** value to the container's **data-sitekey** attribute.
 
 ## Documentation
-[ReCaptcha Documentation](https://developers.google.com/recaptcha/intro)
+[reCAPTCHA Documentation](https://developers.google.com/recaptcha/intro)
