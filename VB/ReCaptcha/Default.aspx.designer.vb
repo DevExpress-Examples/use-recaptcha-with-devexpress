@@ -20,6 +20,15 @@ Namespace ReCaptcha
         Protected form1 As Global.System.Web.UI.HtmlControls.HtmlForm
 
         ''' <summary>
+        ''' ASPxFormLayout1 control.
+        ''' </summary>
+        ''' <remarks>
+        ''' Auto-generated field.
+        ''' To modify move field declaration from designer file to code-behind file.
+        ''' </remarks>
+        Protected ASPxFormLayout1 As Global.DevExpress.Web.ASPxFormLayout
+
+        ''' <summary>
         ''' Name control.
         ''' </summary>
         ''' <remarks>
