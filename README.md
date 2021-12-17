@@ -1,25 +1,9 @@
-# Product/Platform - Task
-
-This is the repository template for creating new examples. Describe the solved task here.
-
-Put a screenshot that illustrates the result here.
-
-Then, add implementation details (steps, code snippets, and other technical information in a free form), or add a link to an existing document with implementation details. 
-
+# How to use ReCaptcha with DevExpress Editors
+This example demonstrates how to use ReCaptcha with DevExpress editors to validate user input.
+![Sample](./Sample.png)
+ ## Overview
+ To start using reCAPTCHA, you need to [sign up for an API key pair](http://www.google.com/recaptcha/admin) for your site. Then you need to add your site key into "data-sitekey" field of the div with class "g-recaptcha". After that you can use reCaptcha API for further validation. 
 ## Files to Look At
-
-- link.cs (VB: link.vb)
-- link.js
-- ...
-
+[Default.aspx](./CS/ReCaptcha/Default.aspx)
 ## Documentation
-
-- link
-- link
-- ...
-
-## More Examples
-
-- link
-- link
-- ...
+[ReCaptcha Documentation](https://developers.google.com/recaptcha/intro)
