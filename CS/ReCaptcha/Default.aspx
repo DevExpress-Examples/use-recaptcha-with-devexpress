@@ -31,7 +31,7 @@
         <h1>How to use ReCaptcha with DevExpress Editors</h1>
         <dx:ASPxTextBox runat="server" ID="Name" Caption="Name:"></dx:ASPxTextBox>
         <dx:ASPxTextBox runat="server" ID="mail" Caption="E-Mail:"></dx:ASPxTextBox>
-        <div class="g-recaptcha" data-sitekey="6LdZ6acdAAAAAFBsz2QYYxWUB1j8Gf1yQ3yQtofM"></div> 
+        <div class="g-recaptcha" data-sitekey=""></div> 
         <dx:ASPxButton runat="server" Text="Submit" AutoPostBack="false" ID="Submit" ClientInstanceName="submit" OnClick="Submit_Click">
             <ClientSideEvents Click="OnSubmitClick" />
         </dx:ASPxButton>
