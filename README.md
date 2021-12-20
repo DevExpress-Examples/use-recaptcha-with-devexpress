@@ -6,7 +6,7 @@
 
 # ASP.NET - How to add the Google reCAPTCHA tool to a project and use it with DevExpress Editors
 
-This example demonstrates how to use [reCAPTCHA API](https://www.google.com/recaptcha/about/) to validate user actions on your website.
+This example demonstrates how to use the [reCAPTCHA API](https://www.google.com/recaptcha/about/) to validate user actions on your website.
 
 ![Sample](./Sample.png)
 
