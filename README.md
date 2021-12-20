@@ -4,9 +4,9 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 
-# ASP.NET - How to use Google reCAPTCHA with DevExpress Editors
+# ASP.NET - How to add the Google reCAPTCHA tool to a project and use it with DevExpress Editors
 
-This example demonstrates how to use [reCAPTCHA API](https://www.google.com/recaptcha/about/) to validate user input.
+This example demonstrates how to use [reCAPTCHA API](https://www.google.com/recaptcha/about/) to validate user actions on your website.
 
 ![Sample](./Sample.png)
 
