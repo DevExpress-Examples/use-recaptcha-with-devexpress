@@ -12,17 +12,18 @@ This example demonstrates how to use [reCAPTCHA API](https://www.google.com/reca
 
 ## Files to Look At
 
-* [Default.aspx](./CS/ReCaptcha/Default.aspx)(VB: [Default.aspx](./VB/ReCaptcha/Default.aspx))
+* [Default.aspx](./CS/ReCaptcha/Default.aspx) (VB: [Default.aspx](./VB/ReCaptcha/Default.aspx))
 
-* [Default.aspx.cs](./CS/ReCaptcha/Default.aspx.cs)(VB: [Default.aspx.vb](./VB/ReCaptcha/Default.aspx.vb))
+* [Default.aspx.cs](./CS/ReCaptcha/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/ReCaptcha/Default.aspx.vb))
 
 ## Implementation Details
 
-Follow the steps below to add **reCAPTCHA** verification to your project:
+Follow the steps below to add **reCAPTCHA** verification to a project:
 
-1. Register your website's domain in the [Google reCAPTCHA](https://www.google.com/recaptcha/admin/create) service to get a pair of a **site key** and **secret key**.
+1. Register your website in the [Google reCAPTCHA](https://www.google.com/recaptcha/admin/create) service to get a pair of a **site key** and **secret key**.
 
 2. Create a `div` container with the **class** attribute set to **g-recaptcha**. Assign the **site key** value to the container's **data-sitekey** attribute.
 
 ## Documentation
+
 [reCAPTCHA Documentation](https://developers.google.com/recaptcha/intro)
