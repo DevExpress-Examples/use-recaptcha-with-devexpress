@@ -20,7 +20,7 @@ This example demonstrates how to use the [reCAPTCHA API](https://www.google.com/
 
 Follow the steps below to add **reCAPTCHA** verification to a project:
 
-1. Register your website in the [Google reCAPTCHA](https://www.google.com/recaptcha/admin/create) service to get a key pair that consists of a **site key** and a **secret key**.
+1. Register your website with the [Google reCAPTCHA](https://www.google.com/recaptcha/admin/create) service to get a key pair that consists of a **site key** and **secret key**.
 
 2. Create a `div` container with the **class** attribute set to **g-recaptcha**. Assign the **site key** value to the container's **data-sitekey** attribute.
 
