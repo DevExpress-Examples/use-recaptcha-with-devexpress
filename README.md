@@ -20,9 +20,11 @@ This example demonstrates how to use the [reCAPTCHA API](https://www.google.com/
 
 Follow the steps below to add **reCAPTCHA** verification to a project:
 
-1. Register your website in the [Google reCAPTCHA](https://www.google.com/recaptcha/admin/create) service to get a pair of a **site key** and a **secret key**.
+1. Register your website in the [Google reCAPTCHA](https://www.google.com/recaptcha/admin/create) service to get a key pair that consists a **site key** and a **secret key**.
 
 2. Create a `div` container with the **class** attribute set to **g-recaptcha**. Assign the **site key** value to the container's **data-sitekey** attribute.
+
+This example handles the button's [Click](https://docs.devexpress.com/AspNet/js-ASPxClientButton.Click) event on the client side to get a user's [response](https://developers.google.com/recaptcha/docs/verify) to the **reCAPTCHA** challenge.
 
 ## Documentation
 
