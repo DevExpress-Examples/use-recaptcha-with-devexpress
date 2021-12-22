@@ -24,7 +24,7 @@ Follow the steps below to add **reCAPTCHA** verification to a project:
 
 2. Create a `div` container with the **class** attribute set to **g-recaptcha**. Assign the **site key** value to the container's **data-sitekey** attribute.
 
-This example handles the button's [Click](https://docs.devexpress.com/AspNet/js-ASPxClientButton.Click) event on the client side to get a user's [response](https://developers.google.com/recaptcha/docs/verify) to a **reCAPTCHA** challenge.
+This example handles the button's [Click](https://docs.devexpress.com/AspNet/js-ASPxClientButton.Click) event on the client side to get a user's [response](https://developers.google.com/recaptcha/docs/verify) to the **reCAPTCHA** challenge.
 
 ## Documentation
 
