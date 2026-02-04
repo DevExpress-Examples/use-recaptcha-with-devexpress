@@ -1,1 +1,1 @@
-<%@ Application Codebehind="Global.asax.cs" Inherits="ReCaptcha.Global_asax" Language="C#" %>
+<%@ Application Codebehind="Global.asax.vb" Inherits="ReCaptcha.Global_asax" Language="VB" %>
